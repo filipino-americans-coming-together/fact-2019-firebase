@@ -2,12 +2,20 @@ const express = require('express')
 
 const NotificationTokenCollection = require('../models/NotificationTokenCollection')
 
-class NotificationTokenRouter {
+class NotificationsRouter {
   constructor (db) {
     this.router = express.Router()
     this.notificationTokenCollection = new NotificationTokenCollection(db) 
 
     this.router.get('/', (req, res) => {
+      res
+        .status(200)
+        .send({
+          message: '/notifications endpoint is live'
+        })
+    })
+
+    this.router.get('/tokens', (req, res) => {
       this.notificationTokenCollection
         .getAllNotificationsTokens()
         .then(_res => {
@@ -31,7 +39,7 @@ class NotificationTokenRouter {
         })
     })
     
-    this.router.put('/', (req, res) => {
+    this.router.post('/tokens', (req, res) => {
       const token = req.body.token
       if (token) {
         this.notificationTokenCollection
@@ -70,4 +78,4 @@ class NotificationTokenRouter {
   }
 }
 
-module.exports = NotificationTokenRouter
+module.exports = NotificationsRouter

@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
 })
 
 //  Routes
-const NotificationTokenRouter = require('./controllers/NotificationTokenRouter')
-app.use('/notification-tokens', new NotificationTokenRouter(db).routes)
+const NotificationsRouter = require('./controllers/NotificationsRouter')
+app.use('/notifications', new NotificationsRouter(db).routes)
 
 exports.app = functions.https.onRequest(app);

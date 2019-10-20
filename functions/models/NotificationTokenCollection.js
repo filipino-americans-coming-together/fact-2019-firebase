@@ -1,6 +1,6 @@
 const CollectionNames = require('../constants/CollectionNames') 
  
-class NotificationTokenCollection {
+class NotificationTokensCollection {
   constructor (db) {
     this.NotificationTokenCollection = db.collection(
       CollectionNames.NOTIFICATION_TOKENS
@@ -36,4 +36,4 @@ class NotificationTokenCollection {
   }
 }
 
-module.exports = NotificationTokenCollection
+module.exports = NotificationTokensCollection
