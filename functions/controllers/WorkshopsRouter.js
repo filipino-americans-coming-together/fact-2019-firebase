@@ -19,7 +19,7 @@ class WorkshopsRouter {
     })
 
     //  GET /workshops/all
-    this.router.get('/workshops/all', (req, res) => {
+    this.router.get('/all', (req, res) => {
       res
         .status(200)
         .send({
