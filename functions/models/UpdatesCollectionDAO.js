@@ -1,6 +1,6 @@
 const CollectionNames = require('../constants/CollectionNames')
 
-class UpdatesCollectionDAO {
+class updatesCollectionModel {
   constructor(db) {
     this.UpdatesCollection = db.collection(
       CollectionNames.UPDATES
@@ -36,4 +36,4 @@ class UpdatesCollectionDAO {
   }
 }
 
-module.exports = UpdatesCollectionDAO
+module.exports = updatesCollectionModel

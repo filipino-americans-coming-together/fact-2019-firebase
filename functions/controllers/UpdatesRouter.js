@@ -1,11 +1,11 @@
 const express = require('express')
 
-const UpdatesCollectionDAO = require('../models/UpdatesCollectionDAO')
+const UpdatesCollectionModel = require('../models/UpdatesCollectionModel')
 
 class UpdatesRouter {
   constructor(db) {
     this.router = express.Router()
-    this.updatesCollectionDAO = new UpdatesCollectionDAO(db)
+    this.updatesCollectionModel = new UpdatesCollectionModel(db)
     this.initRoutes()
   }
 
@@ -21,7 +21,7 @@ class UpdatesRouter {
 
     //  GET /updates/all
     this.router.get('/all', (req, res) => {
-      this.updatesCollectionDAO
+      this.updatesCollectionModel
         .getAllUpdates()
         .then(_res => {
           res
@@ -48,7 +48,7 @@ class UpdatesRouter {
       const update = req.body.update
       //  TODO: add type validation!
       if (update) {
-        this.updatesCollectionDAO
+        this.updatesCollectionModel
           .createUpdate(update)
           .then(_res => {
             res
