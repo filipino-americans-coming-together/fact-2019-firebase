@@ -1,17 +1,55 @@
 const express = require('express')
 
 const NotificationTokenCollection = require('../models/NotificationTokenCollection')
+const NoticationsService = require('../services/NotificationsService')
 
 class NotificationsRouter {
   constructor (db) {
     this.router = express.Router()
     this.notificationTokenCollection = new NotificationTokenCollection(db) 
+    this.noticationsService = new NoticationsService(db)
 
     this.router.get('/', (req, res) => {
       res
         .status(200)
         .send({
           message: '/notifications endpoint is live'
+        })
+    })
+
+    this.router.post('/', (req, res) => {
+      const { notification } = req.body
+      if (!notification) {
+        res
+          .status(400)
+          .send({
+            message: 'Provide notification to send in request body.'
+          })
+      }
+      const { title, body } = notification
+      if (!title || !body) {
+        res
+          .status(400)
+          .send({
+            message: '`title` and `body` are required fields for a notification.'
+          })
+      }
+      const message = { title, body }
+
+      this.noticationsService.sendEveryonePushNotification(message)
+        .then(() => {
+          res
+            .status(200)
+            .send({
+              message: 'Sent push notifications.'
+            })
+        })
+        .catch(() => {
+          res
+            .status(500)
+            .send({
+              message: 'Error sending push notifications.'
+            })
         })
     })
 
