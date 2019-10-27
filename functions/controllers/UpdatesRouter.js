@@ -44,6 +44,14 @@ class UpdatesRouter {
     })
 
     //  POST /updates
+    /*
+     *  update {
+     *    title: String,
+     *    message: String,
+     *    author: String,
+     *    timestamp: assigned
+     *  }
+     */
     this.router.post('/', (req, res) => {
       const update = req.body.update
       //  TODO: add type validation!

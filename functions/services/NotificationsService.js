@@ -9,43 +9,42 @@ class NotificationService {
     this.notificationTokenCollection = new NotificationTokenCollection(db)
   }
 
-  sendEveryonePushNotification = (message) => {
+  sendEveryonePushNotification (message) {
     return new Promise((resolve, reject) => {
       this.notificationTokenCollection
         .getAllNotificationsTokens()
-        .then(tokens => {
+        .then(function(tokens) {
           this
             .sendPushNotification(tokens, message)
             .then(() => resolve())
             .catch((error) => reject(error))
         })
         .catch(error => {
-          reject({
-            error
-          })
+          reject(new Error(error))
         })
     })
   }
 
-  sendPushNotification = (pushTokens, message) => {
+  sendPushNotification (pushTokens, message) {
     return new Promise(async (resolve, reject) => {
       const pushMessages = pushTokens
         .filter(token => Expo.isExpoPushToken(token))
-        .map(token => ({
-          ...message,
-          to: token
-        }))
+        .map(function(token) {
+          return ({
+            title: message.title,
+            body: message.title,
+            to: token
+          })
+        })
   
       const chunks = expo.chunkPushNotifications(pushMessages);
   
+      const results = []
       for (const chunk of chunks) {
-        try {
-          let ticketChunk = await expo.sendPushNotificationsAsync(chunk);
-          console.log(ticketChunk);
-        } catch (error) {
-          console.error(error)
-        }
+        results.push(expo.sendPushNotificationsAsync(chunk))
       }
+      await Promise.all(results)
+      console.log('Result:', results)
       console.log(`Send ${message.title} notification to (${pushTokens.length}) tokens`)
       resolve()
     })

@@ -29,7 +29,12 @@ class updatesCollectionModel {
   createUpdate(update) {
     return new Promise((resolve, reject) => {
       this.UpdatesCollection
-        .add(update)
+        .add({
+          title: update.title,
+          message: update.message,
+          author: update.author,
+          timestamp: Date.now()
+        })
         .then(ref => resolve(ref.id))
         .catch(error => reject(new Error(error)))
     })
