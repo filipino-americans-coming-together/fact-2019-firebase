@@ -44,11 +44,12 @@ class NotificationsRouter {
               message: 'Sent push notifications.'
             })
         })
-        .catch(() => {
+        .catch((err) => {
           res
             .status(500)
             .send({
-              message: 'Error sending push notifications.'
+              message: 'Error sending push notifications.',
+              error: err
             })
         })
     })
