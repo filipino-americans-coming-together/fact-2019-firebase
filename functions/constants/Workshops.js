@@ -1,5 +1,5 @@
 const WORKSHOPS = [{
-  id: 'WS1-00',
+  id: 'WS1-01',
   location: 'Gregory Hall 223',
   session: 'WORKSHOP_SESSION_01',
   title: 'Mental Health and Self-Empowerment',
@@ -8,7 +8,7 @@ const WORKSHOPS = [{
   bio: 'JR Kuo is the CEO of CoffeeWithJR, a mental health training services organization, and a professional speaker, trainer, and coach. He has over 10 years of experience in public speaker and has trained students, faculties, and staff at over 35 universities and conferences across the United States, including Harvard University, Stanford University, and Vanderbilt University. He has been an adjunct professor at the University of Colorado Boulder and Regis University, teaching leadership, cultural competency, and mental health. He is also a Mental Health First Aid instructor. JR provides corporate training that focuses on leadership development and diversity and inclusion. In addition to professional speaker, JR has 10 years of experience managing and running nonprofit organizations and small businesses.'
 },
 {
-  id: 'WS1-01',
+  id: 'WS1-02',
   location: 'Lincoln Hall 1027',
   session: 'WORKSHOP_SESSION_01',
   title: 'Creating Value and Leadership: Understanding Engagement',
@@ -17,7 +17,7 @@ const WORKSHOPS = [{
   bio: '<p>Jared-Peter (JP) Lavengco has been a community member and student leader at UIUC throughout his college career. In all his organizations, he has valued the warmth of community and the opportunity to impact others. As a past officer of PSA and a Charter of Kappa Pi Beta Fraternity, Inc., he has sought to deepen his sense of identity and culture and serve others with that knowledge. In his workshop this year, he hopes to share his experiences with fellow delegates and learn more about what other people value and how they feel their communities can have a greater impact.</p>'
 },
 {
-  id: 'WS1-02',
+  id: 'WS1-03',
   location: 'Gregory Hall 215',
   session: 'WORKSHOP_SESSION_01',
   title: 'What to Focus on Financially after College to Set You Up for Future Success',
@@ -26,7 +26,7 @@ const WORKSHOPS = [{
   bio: 'Gian Deguzman is a practicing financial planner who works with clients to develop a plan to effectively accomplish their financial goals. Goals center around retirement planning, college planning, debt management, cash flow analysis, risk management and estate planning. More importantly, Gian guides clients through stages in their lives so they can get through them more confidently. '
 },
 {
-  id: 'WS1-03',
+  id: 'WS1-04',
   location: 'Gregory Hall 213',
   session: 'WORKSHOP_SESSION_01',
   title: 'Seeing past \'Walang Hiya\'',
@@ -35,7 +35,7 @@ const WORKSHOPS = [{
   bio: '<p>Sergio James Cadiena is a senior accounting and finance double majour at the University of Illinois at Chicago. He has been a MAFA member since 2016 and is currently one of the presidents of Filipinos In Alliance.</p><p>Cat Taylo is an alumni of PSA UIUC and MAFA. She graduated in 2017 with a BS in Speech & Hearing Science and pursued a career change towards Business Administration. She currently works as a Business Coordinator at the University of Chicago’s Physical Sciences Division.</p>'
 },
 {
-  id: 'WS1-04',
+  id: 'WS1-05',
   location: 'Lincoln Hall 1092',
   session: 'WORKSHOP_SESSION_01',
   title: 'Subtle Filipino Traits: Disrupting Stereotypes',
@@ -44,7 +44,7 @@ const WORKSHOPS = [{
   bio: '<p>Michelle Macrohon, Founder of Subtle Filipino Traits, is a Filipino/Chinese born and bred in Southern California. As the oldest Ate of two beautiful and smart sisters, daughter of Darna (her superwoman mom), and passionate friend to loved ones, her universal purpose is to leave people and places better than she found them. She aspires to be a super-connector, community advocator, tech-entrepreneur, and overall positive influence to those all around her. She graduated from the University of California, Santa Barbara as an Asian American Studies Major, Education Minor, and earned her Technology Management Certificate. Besides engaging online through memes or sharing her excitement about life, she loves dancing, cooking, traveling, and spending time with the people she cares about. If she would want you to remember her for anything, she would want you to always remember to "Stay Blessed".</p>'
 },
 {
-  id: 'WS1-05',
+  id: 'WS1-06',
   location: 'Lincoln Hall 1066',
   session: 'WORKSHOP_SESSION_01',
   title: 'Our Migration Story',
@@ -53,7 +53,7 @@ const WORKSHOPS = [{
   bio: '<p>Migrante Chicago is a grassroots organization of Filipinos dedicated to advocating and fighting for the rights and welfare of Filipino workers, and immigrants in the U.S. and for the genuine democracy and freedom in the Philippines.</p>'
 },
 {
-  id: 'WS1-06',
+  id: 'WS1-07',
   location: 'Illini Union 314b',
   session: 'WORKSHOP_SESSION_01',
   title: 'Conference Within A Conference (CWAC)',
@@ -62,7 +62,7 @@ const WORKSHOPS = [{
   bio: '<p>The Midwest Association of Filipino Americans (MAFA) is a charitable non-profit that aims to provide resources and communication between the many Filipinx-American/Asian-American organizations around the Midwest and beyond. MAFA exists to promote unity and cooperation among the Midwest by promoting Filipinx culture and Asian American awareness, coordinating meetings and events, and supporting the objectives of the MAFA Member Organizations. Contact us at <a href=\'http://wearemafa.org\' target=\'_blank\'>wearemafa.org</a>.</p>'
 },
 {
-  id: 'WS1-07',
+  id: 'WS1-08',
   location: 'Lincoln Hall 1065',
   session: 'WORKSHOP_SESSION_01',
   title: 'Adulting 101: Intro to Goal Setting',
@@ -71,7 +71,7 @@ const WORKSHOPS = [{
   bio: '<p>Jess and Tia are truly sisters from other misters. They enjoy long walks on the couch, crying over Hodor holding the door, and munching on the classic McFishie.</p><p>Since graduating from the University of Illinois at Urbana-Champaign, Jess Bautista has made her way into the Illinois tech community as a User Experience Designer for Solstice Consulting in downtown Chicago. While at U of I, she served as an officer for the Philippine Student Association. She held various positions such as Publicity Chair, TeamFACT Manager, and FACT 2016 Co-Coordinator. Before pursuing a degree in Graphic Design, Jess thought it would be a splendid idea to pursue a degree in the STEM field to make her family proud. Although STEM is an amazing field, it definitely wasn’t for her… at all. That being said, she’s no stranger to the struggle of switching into a completely different field. She loves encouraging others to find their passion and is always willing to help them reach their full potential in the process. If you’re interested in pursuing a creative or innovative tech career, don’t hesitate to reach out! She loves helping out fellow members of the FACT community!</p><p>Tia Mangahas is a December 2018 graduate of the University of Illinois at Urbana-Champaign’s Gies College of Business, and has pursued a career in public accounting as an Assurance Associate for the National Real Estate Group at RSM US LLP in downtown Chicago. On-campus, she stayed involved in the Philippine Student Association and UIUC’s chapter of alpha Kappa Delta Phi Sorority, Inc including acting as a Variety Show Coordinator for FACT 2017. Aside from the resume fluff, she has found her passions in weightlifting, baking, and any way to promote personal growth. Knowing the impact her Ate Jess had on the personal successes she’s had over the past few months of post-grad, she leaped at the chance to co-facilitate a workshop with her.</p>'
 },
 {
-  id: 'WS1-08',
+  id: 'WS1-09',
   location: 'Gregory Hall 311',
   session: 'WORKSHOP_SESSION_01',
   title: 'Burning Man, EDC, and the Takeaways towards Building Community',
@@ -80,7 +80,7 @@ const WORKSHOPS = [{
   bio: '<p>Christina earned an M.S. Ed. in adult and higher education and a BS in public health from Northern Illinois University. She joined the Asian American Cultural Center team in June 2016 as an Assistant Director. Her role includes working with more than 50 Asian and Asian American student and community organizations and creating student-centered programs focused on diversity, cultural & social justice education. Her passion lies in helping students navigate through their college journey. Prior to working at the University of Illinois Urbana-Champaign, Christina served as a graduate assistant at the NIU Asian American Center for two years coordinating their peer mentor program. She is a second-generation Filipina American, born in Chicago and raised in Skokie, Illinois.</p>'
 },
 {
-  id: 'WS1-09',
+  id: 'WS1-10',
   location: 'Gregory Hall 319',
   session: 'WORKSHOP_SESSION_01',
   title: 'BAKLA: Filipinx Queer and Trans Identity',
@@ -89,7 +89,7 @@ const WORKSHOPS = [{
   bio: '<p>Gericault De La Rose is a queer Filipinx, multidisciplinary artist, and educator. Their brown body is an amulet against the plague of forgetting within a postcolonial world that reinforces collective amnesia. Through performance, video, sculpture, and fibers work, they attempt to challenge the objective truth proposed by ethnographic anthropology, process the cultural exchange between the Philippines and its colonizers, and demystify the heritages claimed by nationalism. By exploring how their culture is consumed, digested, and regurgitated, they begin to unpack the oppressive constructs implanted within their country and people.</p><p>In 2017, she received her Bachelor\'s in Fine Arts with an emphasis in Art History, Theory, and Criticism at the School of the Art Institute of Chicago. During their time in college, they had the opportunity to work as a Co-curator of Philippine Objects at the Field Museum of Natural History where she organized a series of monthly events called Pamanang Pinoy using the objects within the collection as conduits for community discussion. As an emerging artist, De La Rose has had the opportunity to showcase their work across the country including Late Bloomers at Supplyframe Design Lab in Pasadena, California, Nandito Na Ako at Tipton Gallery in Johnson City, Tennessee, ITINERANT at Last Frontier in Brooklyn, New York, and File, Save, Export at 187 Augusta in Toronto, Canada. In collaboration with AFIRE Chicago, their artist collective, Export Quality, was awarded the Crossroads Youth Fund for Cultural Change to support their documentary series Nakikita. They recently attended the ACRE residency in Steuben, Wisconsin having received the Brenda Green Gender Inclusivity Scholarship. They most recently exhibited her work in Playing and Reality at ACRE projects. De La Rose currently lives and works in Chicago, Illinois.</p>'
 },
 {
-  id: 'WS1-10',
+  id: 'WS1-11',
   location: 'Gregory Hall 219',
   session: 'WORKSHOP_SESSION_01',
   title: 'Walang Makakatigil: How Youth and Students are Resisting Repression in the Philippine',
@@ -98,7 +98,7 @@ const WORKSHOPS = [{
   bio: '<p>Gilary Valenzuela is Chairperson of the Chicago chapter of Anakbayan, a youth and student organization comprised of Filipinos across the globe who educate and organize for genuine democracy in the Philippines. Gilary recently went on an Anakbayan exposure trip to the Philippines where she integrated with those on the frontlines of the student and labor movement in Metro Manila. Through this experience, Gilary hopes to share the stories of those boldly fighting for their rights in the face of rising repression, so that Filipinos living outside of the Philippines can know of the continued strength and resilience of the Filipino people.</p>'
 },
 {
-  id: 'WS1-11',
+  id: 'WS1-12',
   location: 'Gregory Hall 221',
   session: 'WORKSHOP_SESSION_01',
   title: 'The FilAm Millionaire Next Door',
@@ -107,7 +107,7 @@ const WORKSHOPS = [{
   bio: '<p>Robert is an accountant at a Fortune 500 company and spends his free time helping others "purchase" their time back from employers. He provides actionable information that enables people to pursue their own passions in their own time.</p>'
 },
 {
-  id: 'WS1-12',
+  id: 'WS1-13',
   location: 'Gregory Hall 317',
   session: 'WORKSHOP_SESSION_01',
   title: 'Itukoy Ang Kapalaran Ng Mandirigma: FMA Introductory Workshop',
@@ -116,7 +116,7 @@ const WORKSHOPS = [{
   bio: '<p>Jose Antonio Villanueva Concepcion, Electrical Engineer, Alumni from the Filipino Student Society of Wayne State University, is a self-taught martial arts enthusiast and passionate thespian of the performing arts. Jose was inspired to learn martial arts through movies and his younger brothers. His interests grew more learning different styles in Eastern culture and how they are represented today\'s media. For his workshop, he has solely focused on FMA, Filipino Martial Arts and hopes the students leave inspired too.</p>'
 },
 {
-  id: 'WS1-13',
+  id: 'WS1-14',
   location: 'Lincoln Hall 1022',
   session: 'WORKSHOP_SESSION_01',
   title: 'Dios Natin: "Our God"',
@@ -125,7 +125,7 @@ const WORKSHOPS = [{
   bio: '<p>Coming soon.</p>'
 },
 {
-  id: 'WS1-14',
+  id: 'WS1-15',
   location: 'Gregory Hall 321',
   session: 'WORKSHOP_SESSION_01',
   title: 'Tsismis: The Tea on U.S. Colonialism in the Philippines',
@@ -134,7 +134,7 @@ const WORKSHOPS = [{
   bio: '<p>Julianna Sim is the current president of The University of Toledo’s Filipino American Association. She is a junior majoring in political science and minoring in public health and chemistry with a pre-medical concentration. When she is not in class, Julianna works as a medical scribe at Promedica. Growing up, she was not exposed to her Filipino roots and has spent the past two years researching Filipinx/Filipinx American history to gain a deeper understanding of where she came from.</p>'
 },
 {
-  id: 'WS1-15',
+  id: 'WS1-16',
   location: 'Gregory Hall 217',
   session: 'WORKSHOP_SESSION_01',
   title: 'Inspiration, Growth, and Prosperity with the Mari’s',
@@ -143,7 +143,7 @@ const WORKSHOPS = [{
   bio: '<p>Marianne Reyes is a UIC Nursing student studying on the UIUC campus. In previous years, she held positions on PSA UIUC’s Officer Board as Awareness Co-Chair and Secretary. She was also a Filipino Culture Night Dinner Co-Coordinator and Campus Ambassador for FACT 2018. In addition to being involved in PSA on campus, she’s involved in the MAFAsphere and was last year’s MAFAmily head for Kusakin. Marianne is very grateful for the experiences she has had and the relationships she formed by being a part of the AAPI community. She prides herself on being a friendly, caring, and optimistic person. In her free time, she enjoys listening to EDM; relating to memes on Facebook & Twitter; and laughing with her boyfriend, friends, and family.</p><p>Marielle Gamo is a Masters of Social Work (MSW) student at Loyola University Chicago. She is an alumna from U of I and graduated this past year. She served on PSA UIUC’s Officer Board in ‘17-’18 as Vice President Internal (VPI). When she was a freshman at a community college, she attended her first ever FACT where she had one of the best experiences of her life, which led to her wanting to be part of an organization just like PSA. Little did she know she was going to transfer to U of I the following year. She comes back to her alma mater in order to give back to the community that gave her a “home away from home.”</p>'
 },
 {
-  id: 'WS1-16',
+  id: 'WS1-17',
   location: 'Gregory Hall 331',
   session: 'WORKSHOP_SESSION_01',
   title: 'Out of Many, One: The Creation and Maintenance of National Identities in Multi-ethnic Societies; the Lessons of Filipinos from America, Canada, and the Philippines',
@@ -152,7 +152,7 @@ const WORKSHOPS = [{
   bio: '<p>Eric Ordoñez was most recently a 2019 United States–Indonesia Society Summer Studies Fellow who interned at the Research Centre for Politics and Government of Gadjah Mada University in Indonesia. His previous affiliations include the core team of the 2017 Kaya Co Summer Fellowship; co-founding the Filipino Canadian Students Association (FILCASA) in Ontario in 2016; and interning at the Gawad Kalinga Enchanted Farm in Bulacan, Philippines in 2015. Eric is a graduate of the University of Illinois at Urbana–Champaign in Economics, Mathematics, and Chemistry.</p><p>Daniel Andrade is an active contributor and member of various Filipino Canadian youth initiatives across Canada. His past experiences as a former president of the Filipino Students’ Association at York University and a co-founder of FILCASA have given him strong influence and following in numerous Filipino intercollegiate communities across Canada. His goal is to uphold and nurture the Filipino–North American narrative. Daniel is a graduate of York University in Public Administration and Law.</p>'
 },
 {
-  id: 'WS1-17',
+  id: 'WS1-18',
   location: 'Lincoln Hall 1060',
   session: 'WORKSHOP_SESSION_01',
   title: 'Jasper Sanchez: Through The Lens',
@@ -161,7 +161,7 @@ const WORKSHOPS = [{
   bio:'<p>Jasper Sanchez was born in Rockford, IL and started dancing at the age of 10. He is a self-taught dancer and did not grow up training in a dance studio. Instead, he got his training through YouTube videos and later on in high school where he attended Auburn High School and was a part of the Creative and Performing Arts program. He was awarded the CAPAbility award, an award recognizing a student that embodied all aspects of the CAPA program decided by CAPA staff, and was also nominated for Visual Artist of the year in the RPS 205 school district. He continued his dance training in Milwaukee, where he attended school at Marquette University and pursued dance throughout the city in groups including HYPE, Origins, Water Street Dance Company, Bachelors, and SAINTS as well as performing for Danceworks. After training in styles of contemporary and hip-hop, he was able to join Chicago Dance Crash, IMMAbreathe, and IMMAbeast. Other credits include Wisconsin Sports Awards, Summerfest, and even being in a KOSS commercial. He has taught extensively in the Midwest including Wisconsin, Chicago, and Michigan. His goal is to educate dancers on the importance of movement exploration as well as self-discovery by providing creative movements and choreography to his students.</p>',
 },
 {
-  id: 'WS1-18',
+  id: 'WS1-19',
   location: 'llini Union 404',
   session: 'WORKSHOP_SESSION_01',
   title: 'Speak Your Dreams into Existence',
@@ -170,7 +170,7 @@ const WORKSHOPS = [{
   bio: '<p>Melorie returns to her alma mater after a decade of entrepreneurship in the Bay Area and resolving ancestral trauma in the Philippines. Yoga, meditation, and reiki have strengthened her intuition to manifest purposeful work, authentic relationships, and anything she puts her mind to. She travels to train with universities and organizations dedicated to resourcing people of color and allies. When she is not leading empowerment workshops, you can find her dancing while eating something delicious. Her passion project, a podcast broadcasting stories of transformation, can be found on amplifyingprogress.com.</p>'
 },
 {
-  id: 'WS1-19',
+  id: 'WS1-20',
   location: 'Lincoln Hall 1024',
   session: 'WORKSHOP_SESSION_01',
   title: 'Rooted in Culture: Our History in the Fil-Am Diaspora',
@@ -179,7 +179,7 @@ const WORKSHOPS = [{
   bio: '<p>Edward Raya is a recent graduate of the University of Illinois at Chicago, majoring in Rehabilitation Sciences and minoring in Global Asian Studies/ Disability Human Development. He is a Brother of Theta Lambda Beta Fraternity, Inc. and has performed with them at FACT V-Show. He was also the Master of Ceremonies for Battle of the Bamboo and MFAS V-Show 2019. Currently, he works for Athletico and is a part of the UniPro Chicago Staff.</p><p>Marko Dacpano is a recent graduate from the University of Illinois at Chicago. He is a proud Brother of Theta Lambda Beta Fraternity, Inc. and has performed at FACT V-Show. He has served as [FIA]*\'s Cultural Coordinator and Promotions Director for Battle Of the Bamboo. He is currently working towards becoming a pharmacist and doing work with UniPro Chicago as a Staff member.</p><p>Kevin Tee is a recent graduate of Purdue University and is currently an Associate Software Engineer at Publicis Sapient. Kevin was previously very active within the Purdue Filipino Association, as well as being an integral part of their PCN the past 3 years. Kevin currently resides in Chicago, now the content manager for Unipro Chicago. In Kevin’s free time, he enjoys playing and watching basketball, attending football games, traveling, working out and going on foodie adventures.</p',
 },
 {
-  id: 'WS1-20',
+  id: 'WS1-21',
   location: 'Lincoln Hall 1090',
   session: 'WORKSHOP_SESSION_01',
   title: 'Cultural considerations in improving your focus and concentration',
@@ -188,7 +188,7 @@ const WORKSHOPS = [{
   bio:'<p>Tuyet Mai Hoang is currently a doctoral psychology intern at the Counseling Center and provides services in English. She was born in Ho Chi Minh City, Vietnam. She has a BA in Economics and had worked as an investment intern at Morgan Stanley and later as a Financial Administrator at the Massachusetts Institute of Technology for five years. In 2014, she changed her mind and decided to pursue a doctoral degree in Counseling Psychology from UIUC. She is in the final year of her Ph.D. and in her free time, she enjoys playing with her son, cooking, reading and traveling.</p><p>Tzu-An Hu is currently a clinical counselor at the Counseling Center and provides services in English and Mandarin. He was born in Taiwan. He has a Ph.D. in counseling psychology and had worked as a clinical counselor at UIUC Counseling Center for 6 years. He is also a co-chair of the international student outreach team and chair for the practicum program. In his free time, he enjoys playing board games, watching movies, enjoying music, and playing with his sons.</p>'
 },
 {
-  id: 'WS2-00',
+  id: 'WS2-01',
   location: 'Lincoln Hall 1024',
   session: 'WORKSHOP_SESSION_02',
   title: 'The \'Fit Bit',
@@ -197,7 +197,7 @@ const WORKSHOPS = [{
   bio: '<p>Nathan Almaria, Mark Gomez, Chris San Juan, and Patrick Cayanan are four friends from varying Filipino-American backgrounds that found a common interest in style and clothing and would like to share their experiences and knowledge to others.</p>'
 },
 {
-  id: 'WS2-01',
+  id: 'WS2-02',
   location: 'Gregory Hall 223',
   session: 'WORKSHOP_SESSION_02',
   title: 'Mental Health and Self-Identity ',
@@ -206,7 +206,7 @@ const WORKSHOPS = [{
   bio: 'JR Kuo is the CEO of CoffeeWithJR, a mental health training services organization, and a professional speaker, trainer, and coach. He has over 10 years of experience in public speaker and has trained students, faculties, and staff at over 35 universities and conferences across the United States, including Harvard University, Stanford University, and Vanderbilt University. He has been an adjunct professor at the University of Colorado Boulder and Regis University, teaching leadership, cultural competency, and mental health. He is also a Mental Health First Aid instructor. JR provides corporate training that focuses on leadership development and diversity and inclusion. In addition to professional speaker, JR has 10 years of experience managing and running nonprofit organizations and small businesses.'
 },
 {
-  id: 'WS2-02',
+  id: 'WS2-03',
   location: 'Gregory Hall 217',
   session: 'WORKSHOP_SESSION_02',
   title: 'How to become an Ally for those who are affected by current immigration policies',
@@ -215,7 +215,7 @@ const WORKSHOPS = [{
   bio: 'Dr. Gio Guerra, a Fulbright Scholar, joined the University of Illinois Urbana Champaign in August 2013 as Director of La Casa Cultural Latina. She became the University’s Assistant Vice Chancellor for Diversity and Academic Inclusive Excellence in July 2018. She has developed and delivered professional development/workshops on issues related to institutional barriers affecting Latino/a college students; undocumented/DACA students policies and practices; as well as intersectionality & identity. She received her Bachelor of Arts, majoring in Communication with concentration in Journalism. She also received a Master in Sociology and a Ph.D. in Educational Leadership and Organizational Development from the University of Louisville. As part of her new role, she is in charge of making sure all First Year and Transfer students are introduce to Diversity and Inclusion Experience at Illinois. She has made a priority to work with academic units to provide meaningful and equitable experiential learning opportunities for all students. '
 },
 {
-  id: 'WS2-03',
+  id: 'WS2-04',
   location: 'Gregory Hall 215',
   session: 'WORKSHOP_SESSION_02',
   title: 'Cultivating Solidarity: Untold Stories of the Bukid',
@@ -224,7 +224,7 @@ const WORKSHOPS = [{
   bio: 'Raphie Torralba is an alumna and former board member of MAFA. After graduating from UW-Madison this past May, she went on an immersion trip to the Philippines with Kabataan Alliance and other Fil-Am youth from across the country. Together, they integrated with some of the most marginalized communities of central Luzon. She hopes that by sharing the stories of their struggles with Fil-Am youth communities in the Midwest, they might be empowered to advocate for Filipinos at home and around the world. Edmund Buni is the national Director of Education of Kabataan Alliance. Kabataan Alliance’s mission is to build national unity among Filipino youth and student organizations across the US vision is to unite and empower Filipino youth and students across the US to engage in community organizing and advocacy to build towards a just society where people can reach their full potentials to advocate for the rights and welfare of Filipinos in the US, Philippine, and around the world. '
 },
 {
-  id: 'WS2-04',
+  id: 'WS2-05',
   location: 'Gregory Hall 213',
   session: 'WORKSHOP_SESSION_02',
   title: 'Real Talk, With The PUSO Foundation',
@@ -233,7 +233,7 @@ const WORKSHOPS = [{
   bio: 'The PUSO Foundation is an established 501(C)(3) Nonprofit Organization that has partnered with hundreds of volunteers worldwide to provide purposeful unconditional service to others. Since 2017, PUSO has served over 10,000 lives across five countries, providing basic life necessities and facilitating community renovation projects to enrich and empower the lives it serves. PUSO has funded its service work through its strategic fundraising events within local communities along with the gracious generosity of its many donors. PUSO has also fostered a college outreach program to inspire college students to make a their own difference. The PUSO Foundation has since evolved into something greater than just a nonprofit organization performing global service work for those in need. PUSO is a movement, PUSO is a culture, PUSO is an interconnection of lives filled with a philanthropic spirit of giving back and spreading love.'
 },
 {
-  id: 'WS2-05',
+  id: 'WS2-06',
   location: 'Gregory Hall 319',
   session: 'WORKSHOP_SESSION_02',
   title: 'Microaggressions: A Case Study',
@@ -242,7 +242,7 @@ const WORKSHOPS = [{
   bio: '​Shane Carlin\'s professional career has been in fundraising and Student Affairs where he was the Director of Development for Student Life and Scholarships at Northwestern University, Assistant Vice Chancellor for Student Affairs Advancement at the University of Illinois at Urbana-Champaign. Carlin has also worked as the Director of Corporate and Foundation Relations at the National Association of Student Personnel Administrators (NASPA), as well as in Residence Life and Housing at Miami, Northwestern, and Capital Universities. He is a Korean American adoptee where he grew-up in northern Kentucky. Carlin earned his Bachelor of Science in Agricultural Communications from the University of Kentucky and his Master of Science in College Student Personnel from Miami University.  Carlin not only has over 20 years of experience in higher education administration, but also has mentored students in international settings. Besides his expertise in higher education, Carlin is an experienced public speaker. He has been invited to speak at universities from coast to coast. In addition, he was a speaker for TEDx Lakeshore East in 2011. Internationally, Carlin presented the “Western Way of Networking” to students at Hong Kong University Science & Technology (HKUST) and managers at General Electric (GE) in Shanghai at the China Technology Center. '
 },
 {
-  id: 'WS2-06',
+  id: 'WS2-07',
   location: 'Lincoln Hall 1092',
   session: 'WORKSHOP_SESSION_02',
   title: 'Crisis Simulation: The FilAm Identity',
@@ -251,7 +251,7 @@ const WORKSHOPS = [{
   bio: 'Pilipino American Unity for Progress (UniPro) is a national 501(c)(3) nonprofit organization that envisions a unified and engaged Pilipino America. UniPro’s mission is to engage Pilipino Americans through collaboration, advocacy and education. The organization allows Pilipino Americans the opportunity to explore their place in the community in the hope of owning their niche through its various programs incorporating professional development, Filipino history, and workshop sessions.'
 },
 {
-  id: 'WS2-07',
+  id: 'WS2-08',
   location: 'Lincoln Hall 1090',
   session: 'WORKSHOP_SESSION_02',
   title: 'The People\'s Resistance: Land & Human Rights Defenders in the Philippines',
@@ -260,7 +260,7 @@ const WORKSHOPS = [{
   bio: '<p>Bev Tang has been involved with organizing the Southern California Filipino community for their rights & welfare and genuine democracy in the Philippines and is excited to be in Chicago to continue social justice work with CCHRP as the Education Officer.</p><p>Bernard Wang is a UIUC alum and is the Secretary-General at CCHRP. A UIUC, Bernard was interested in ethnic studies and student activism. After graduating in 2017, he moved to Chicago and joined CCHRP after learning about their solidarity work with people’s struggles around the world.</p><p>Elise Knaub currently serves as Vice-Chair of CCHRP and is finishing her Master of Arts in Teaching at the University of Chicago. During this past summer, she visited the Philippines to gain a better understanding of the Filipino people’s resistance and the role of education in their liberation. </p>'
 },
 {
-  id: 'WS2-08',
+  id: 'WS2-09',
   location: 'Lincoln Hall 1065',
   session: 'WORKSHOP_SESSION_02',
   title: 'From Marcos To Duterte, Filipinas Are Marching And Rising For Change.',
@@ -269,7 +269,7 @@ const WORKSHOPS = [{
   bio: '<p>GABRIELA Chicago is a member of GABRIELA USA (gabrielausa.org) and GABRIELA Philippines (gabrielaphilippines.wordpress.com/about) and (m.facebook.com/gabriela.alliance). It connects with GABRIELA Women’s Party (m.facebook.com/GabrielaWomensParty). GABRIELA is a grassroots Filipino women organization seeking to wage a struggle for the liberation of all oppressed Filipino women and people.</p>'
 },
 {
-  id: 'WS2-09',
+  id: 'WS2-10',
   location: 'Lincoln Hall 1027',
   session: 'WORKSHOP_SESSION_02',
   title: 'Asian Pacific Islander Civic Engagement 101',
@@ -278,7 +278,7 @@ const WORKSHOPS = [{
   bio: '<p>Louie Tan Vital (she/they) is a Filipina American poet, community organizer, and graduate of the Masters of Public Administration program at the UW Evans School of Public Policy and Governance. Louie has recently worked for the Washington State House of Representatives and the 115th Congress in the United States House of Representatives. Her work sits at the intersections of migration, diasporic trauma, bodily politics, and public policy. She has dedicated her life to fighting for racially-equitable public policy and harnessing performance arts as a means for political activism. Louie’s words have appeared in TVW, the Smithsonian, The Filipino Channel, Yahoo News, and various news and radio outlets in America and the Philippines. You can find her poetry in TAYO Literary Magazine. Ultimately, Louie seeks to uplift all marginalized communities through political advocacy and elected office while remaining true to herself, her community, and her ancestors.</p>'
 },
 {
-  id: 'WS2-10',
+  id: 'WS2-11',
   location: 'Lincoln Hall 1060',
   session: 'WORKSHOP_SESSION_02',
   title: 'Decolonize Your Mind: Colonial Mentality In Education',
@@ -287,7 +287,7 @@ const WORKSHOPS = [{
   bio: '<p>Anakbayan holds the belief that Philippine society today is not truly free nor democratic. It is under the control of US imperialism along with local landlords, big capitalists, and corrupt government officials. The National Democratic Struggle seeks to realize true national liberation for the country and the realization of the democratic rights of the people.</p>'
 },
 {
-  id: 'WS2-11',
+  id: 'WS2-12',
   location: 'YMCA Latzer Hall',
   session: 'WORKSHOP_SESSION_02',
   title: 'Prism Kru K-Pop Dance Workshop',
@@ -296,7 +296,7 @@ const WORKSHOPS = [{
   bio: '<p>Prism Kru is a K-Pop and Urban Dance team established in 2013 in Chicago, IL. They have opened up for Korean artists such as HyunA, San E & Mad Clown, and Nada, and have performed and competed all over the midwest. Their members bond together over their love of Korean music and hip-hop dance, as well as their determination to work hard and grow as a team.</p>'
 },
 {
-  id: 'WS2-12',
+  id: 'WS2-13',
   location: 'Lincoln Hall 1068',
   session: 'WORKSHOP_SESSION_02',
   title: 'You Belong: Navigating Societal and Cultural Pressures To Fit In',
@@ -305,7 +305,7 @@ const WORKSHOPS = [{
   bio: '<p>A proud Chicagoan from Latinx-Asian American heritage, Jennifer is thankful for the opportunity to join FACT 2019 as a facilitator to share her experiences navigating college as a first-generation student. Her earned degrees include an MA from the University of Michigan Ann Arbor and a BA from the University of Illinois at Urbana-Champaign.</p>'
 },
 {
-  id: 'WS2-13',
+  id: 'WS2-14',
   location: 'Illini Union 210',
   session: 'WORKSHOP_SESSION_02',
   title: 'Dance2eXpreSs: Defining yourself through dance',
@@ -314,7 +314,7 @@ const WORKSHOPS = [{
   bio: '<p>Dance2XS UIUC is an urban dance team from the University of Illinois at Urbana-Champaign that performs around campus, in Chicago, and surrounding universities.</p>'
 },
 {
-  id: 'WS2-14',
+  id: 'WS2-15',
   location: 'Gregory Hall 311',
   session: 'WORKSHOP_SESSION_02',
   title: 'Fearing the Tsinela',
@@ -323,7 +323,7 @@ const WORKSHOPS = [{
   bio: '<p>Daniel is a mixed-race Filipino college student at the University of Minnesota. Originally from the San Francisco Bay Area, Daniel moved out to Minnesota for college and is in his third year majoring in Urban Studies and minoring in Economics. Last year Daniel served as the Mafa rep for the Philippine Student Association at the University of Minnesota and has attended events for Mafa going back to freshman year. </p>'
 },
 {
-  id: 'WS2-15',
+  id: 'WS2-16',
   location: 'Gregory Hall 219',
   session: 'WORKSHOP_SESSION_02',
   title: 'The Fight Against Violence Against Women',
@@ -332,7 +332,7 @@ const WORKSHOPS = [{
   bio: '<p>Alpha Phi Gamma UIUC Charter was recently established on campus in April 2019 as our organization’s 17th Charter. We work to build a more inclusive, multicultural community by providing opportunities for self-advancement, with a focus on women empowerment. Our mission is to spread cultural awareness; to encourage academic excellence; to be in solidarity with other marginalized communities, and to empower all to become leaders in the world. We plan every initiative with purpose and to bring sustainable change for the greater community.</p>'
 },
 {
-  id: 'WS2-16',
+  id: 'WS2-17',
   location: 'Gregory Hall 307',
   session: 'WORKSHOP_SESSION_02',
   title: 'Are you _____ enough?',
