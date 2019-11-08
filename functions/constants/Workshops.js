@@ -1,6 +1,6 @@
 const WORKSHOPS = [{
   id: 'WS1-01',
-  location: 'Gregory Hall 223',
+  location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_01',
   title: 'Mental Health and Self-Empowerment',
   description: '<p>“Umbrella can’t stop the rain, but it helps us stand in the rain. Confidence may not bring success, but confidence gives you the power to face any challenge in life.” Unknown Author</p><p>Most people, especially college students are bombarded with uncertainties, self-doubts, and limiting beliefs. These doubts and beliefs often reside in our heads for days and contribute to the negative experience to our mental health which often results in unnecessary anxiety, depression, and fear. Personally, I have been through this whole process as a college student, a person of color (Asian American), and a young professional. Fortunately, through years of the mentorship that I have received, researches and reflections that I have done, and hard works that I have put into self-experiment, I have come up with a toolset that I believe can assist college students to empower themselves and avoid the unnecessary mental health challenges that I went through as a college student. </p><p>The workshop I am proposing will show participants simple techniques to transform self-doubts and limiting beliefs into positive inspirations and resolutions. From these resolutions, participants will be able to use strength-based and person-based methods to set actionable goals to empower themselves. Participants will be more confident as they achieve their goals and be able to minimalize unnecessary self-doubts and limiting beliefs.</p>',
@@ -36,7 +36,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-05',
-  location: 'Lincoln Hall 1092',
+  location: 'Gregory Hall 112',
   session: 'WORKSHOP_SESSION_01',
   title: 'Subtle Filipino Traits: Disrupting Stereotypes',
   description: '<p>Let\'s address stereotypes, bold topics, and untold stories in the Filipino community through a series of interactive activities! This workshop is all about exploring identify, reimagining who we are, the challenges we face, and how our experiences connect us more than divide us! *Subtle Filipino Traits is an online community that aims to connect Filipinos across the globe. Since Subtle Filipino Traits launched on Facebook in January 2019, they have successfully implemented engagement outreaches that have reached over 5 million people and received over half a million social media interactions. They have since launched a website, subtlefilipinotraits.com, and hope to expand their reach in order to bring the Filipino diaspora closer together.</p>',
@@ -108,7 +108,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-13',
-  location: 'Gregory Hall 317',
+  location: 'Illini Union 210',
   session: 'WORKSHOP_SESSION_01',
   title: 'Itukoy Ang Kapalaran Ng Mandirigma: FMA Introductory Workshop',
   description: '<p>This workshop introduces and practices Arnis, Escrima, or Kali otherwise known as Filipino Martial Art. Treat this as choreography because you will learn some in the end. You will learn the basics from footwork, striking and even the history behind this powerful art. We will conclude with a set that involves partnering up and implementing what you learn. The goal is to empower you and even give you a little confidence boost to make you feel like an astig.</p>',
@@ -153,7 +153,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS1-18',
-  location: 'Lincoln Hall 1060',
+  location: 'YMCA Latzer Hall',
   session: 'WORKSHOP_SESSION_01',
   title: 'Jasper Sanchez: Through The Lens',
   description: '<p>I will be talking about how I paved my own path in the dance world against other people’s opinions. I’ll also explain how I was able to find success and be a part of amazing dance groups. Then I’m going to teach a combo because it’s fun!!</p>',
@@ -198,7 +198,7 @@ const WORKSHOPS = [{
 },
 {
   id: 'WS2-02',
-  location: 'Gregory Hall 223',
+  location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_02',
   title: 'Mental Health and Self-Identity ',
   description: '<p>There is no health without mental health. Unfortunately due to cultural stigma, mental health is still unspoken in the Asian American and Pacific Islander (API) college student community. Studies after studies have shown that the ability to talk about mental health issues would tremendous decrease students stress level and improve overall college experience. </p><p>This workshop provides a safe space and professional guided discussion for API students to talk about their struggles on college campus, mental health challenges, and overall wellness. We are not training students to be clinicians; instead we are educating them on various common mental health and emotional knowledge, on how to be there for their friends, improve their communication skill, and on how to be a better listener for their friends.</p><p>Participants will explore their internal and external identities and how that may impact their own health and wellness. Participants will learn how to empower themselves through appreciation of their heritage and strengths.  After being able to identify who they are, participants will learn how mental health is an essential component of their personal development. Last, participants will learn about fellow Asian American perspectives and how this can increase their capacities to talk about their identities, mental health, and Asian American issues.</p>',
@@ -368,7 +368,7 @@ const WORKSHOPS = [{
   bio: '<p>Melorie returns to her alma mater after a decade of entrepreneurship in the Bay Area and resolving ancestral trauma in the Philippines. Yoga, meditation, and reiki have strengthened her intuition to manifest purposeful work, authentic relationships, and anything she puts her mind to. She travels to train with universities and organizations dedicated to resourcing people of color and allies. When she is not leading empowerment workshops, you can find her dancing while eating something delicious. Her passion project, a podcast broadcasting stories of transformation, can be found on <a href="amplifyingprogress.com" target="_blank">amplifyingprogress.com</a>.</p>'
 },
 {
-  id: 'WS3-00',
+  id: 'WS3-01',
   location: 'Lincoln Hall Theater',
   session: 'WORKSHOP_SESSION_03',
   title: 'Freshman Workshop',
@@ -377,7 +377,7 @@ const WORKSHOPS = [{
   bio: '<p>Cathlyn Ferolin (Cathy) is a senior majoring in Community Health with concentration in Health Planning & Administration with a minor in Business. She has served on the Philippine Student Association board as one of the Cultural Chairs in 2017-018 and was 1/2 of the Team FACT Managers for FACT 2018. She is also an active member in alpha Kappa Delta Phi International Sorority Inc. as the Vice President of Service.</p><p>Jayana Tabbilos (Jaya) is a senior majoring in Molecular and Cellular Biology. She has served on the Philippine Student Association board as Social Chair in 2017-2018 and was 1/2 of Hospitality for FACT 2018.</p><p>We\'re both very excited for the opportunity to meet all of you!</p>'
 },
 {
-  id: 'WS3-01',
+  id: 'WS3-02',
   location: 'Noyes Laboratory 100',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: STEM (Science, Technology, Engineering and Mathematics)',
@@ -386,7 +386,7 @@ const WORKSHOPS = [{
   bio: '<p>Coming soon.</>'
 },
 {
-  id: 'WS3-02',
+  id: 'WS3-03',
   location: 'Gregory Hall 112',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Healthcare',
@@ -395,7 +395,7 @@ const WORKSHOPS = [{
   bio: 'Coming soon.'
 },
 {
-  id: 'WS3-03',
+  id: 'WS3-04',
   location: 'Lincoln Hall 1002',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Education & Politics',
@@ -404,7 +404,7 @@ const WORKSHOPS = [{
   bio: '<p>Coming soon.</>'
 },
 {
-  id: 'WS3-04',
+  id: 'WS3-05',
   location: 'Gregory Hall 100',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Media & The Arts',
@@ -413,7 +413,7 @@ const WORKSHOPS = [{
   bio: '<p>Coming soon.</p>'
 },
 {
-  id: 'WS3-05',
+  id: 'WS3-06',
   location: 'Lincoln Hall 1000',
   session: 'WORKSHOP_SESSION_03',
   title: 'Define Your Destiny: Business & Finance',
